@@ -28,6 +28,7 @@ require('./features/tooltips');
 require('./features/dashboard');
 require('./features/changeform');
 require('./features/themes');
+require('./features/selects');
 require('./features/siblings');
 require('./features/related-popups');
 require('./features/scroll-to-bottom-detector');
