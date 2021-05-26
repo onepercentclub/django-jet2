@@ -165,8 +165,8 @@ Select2.prototype = {
                         content_type: contentTypeId,
                         app_label: appLabel,
                         model: model,
-                        q: params.term,
-                        page: params.page,
+                        term: params.term,
+                        p: params.page,
                         page_size: pageSize,
                         object_id: objectId
                     };
