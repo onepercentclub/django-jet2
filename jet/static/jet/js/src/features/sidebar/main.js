@@ -14,7 +14,7 @@ var SideBar = function($sidebar) {
 SideBar.prototype = {
     initScrollBars: function($sidebar) {
         if (!$(document.documentElement).hasClass('touchevents')) {
-            $sidebar.find('.sidebar-wrapper').perfectScrollbar();
+            // $sidebar.find('.sidebar-wrapper').perfectScrollbar();
         }
     },
     initSideBarToggle: function() {
